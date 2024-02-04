@@ -2,37 +2,40 @@
     font-family: 'calibri';
     src: url(fonts/calibri.ttf);
 }
+
 @font-face {
-    font-family: 'calibrib';
-    src: url(fonts/calibrib.ttf);
+    font-family: 'futurak';
+    src: url(fonts/futurak.ttf);
 }
-.red-b{
-    
+
+.red-b {
+
     border-radius: 40px;
     background-color: rgb(255, 5, 5);
     width: 150px;
     height: 50px;
-  color: white;
-   margin-left:65% ;
-   font-size: 20px;
+    color: white;
+    margin-left: 65%;
+    font-size: 20px;
 
 
 }
-.black{
-    border: 2px  solid white;
+
+.black {
+    border: 2px solid white;
     border-radius: 40px;
     background-color: rgb(12, 12, 12);
     width: 150px;
     height: 50px;
-    margin-left:65% ;
+    margin-left: 65%;
     font-size: 20px;
- 
-color: white;
+
+    color: white;
 }
 
 body {
     background-color: black;
-   
+
 }
 
 
@@ -45,6 +48,7 @@ body {
 
 
 }
+
 
 td>img {
     width: 150px;
@@ -97,6 +101,7 @@ td {
 #one-span {
     font-weight: 900;
     font-size: 120px;
+    font-family: futurak;
 
 }
 
@@ -111,12 +116,10 @@ td {
 
 .images {
     background-color: white;
-    margin: 15px;
+    margin: 50px;
     width: 25%;
     height: 150px;
     border-radius: 6px;
-
-
 }
 
 #three-p,
@@ -127,7 +130,7 @@ td {
 }
 
 #three-p {
-    font-family: 'calibri';
+    font-family: 'futurak';
     font-size: 100px;
     font-weight: 900;
 
@@ -149,7 +152,7 @@ td {
 }
 
 .salt {
-    font-family: 'calibri';
+    font-family: 'futurak';
     color: white;
     text-align: center;
     font-size: 100px;
@@ -157,7 +160,7 @@ td {
     margin-bottom: 0px;
     margin-top: 0px;
     letter-spacing: 0px;
-  
+
 }
 
 .franchises {
@@ -176,8 +179,8 @@ td {
 .figure>img {
     width: 380px;
     height: 80%;
-    
-    
+
+
 
 }
 
@@ -185,128 +188,141 @@ td {
     color: red;
     font-size: smaller;
     letter-spacing: 8px;
-    
+
 }
 
 .pepper {
     font-size: 30px;
-    font-family: calibrib;
+    font-family: futurak;
     font-weight: 900;
     letter-spacing: 0px;
     color: white;
 
-  
+
 }
-.express{
+
+.express {
     font-family: calibri;
     font-size: 30px;
-    
+
 }
-.location{
+
+.location {
     width: 20px;
-   
+
 }
-.small{
+
+.small {
     font-size: 20px;
-   font-family: 'calibri';
-   word-spacing:6px;
-   text-align: center;
-   line-height: 0px;
-   
-   
+    font-family: 'calibri';
+    word-spacing: 6px;
+    text-align: center;
+    line-height: 0px;
+
+
 }
-.figcaption{
+
+
+.figcaption {
     text-align: center;
     line-height: 40px;
 }
-.direction{
+
+.direction {
 
     border-radius: 40px;
     background-color: rgb(9, 9, 9);
     width: 200px;
     height: 50px;
-  color: white;
-   margin-left:75px;
-   font-size: 20px;
-   border:  2px solid white;
-   display: block;
-   
+    color: white;
+    margin-left: 75px;
+    font-size: 20px;
+    border: 2px solid white;
+    display: block;
+
 
 }
-article table .hotel{
+
+article table .hotel {
     width: 900px;
-   
+
 }
-.color{
+
+.color {
     background-color: rgb(89, 218, 94);
     margin-left: 20px;
 }
-.align{
+
+.align {
     text-align: left;
-   padding-left: 55px;
-   font-family: calibri;
+    padding-left: 55px;
+    font-family: calibri;
 }
-.opening-soon span{
+
+.opening-soon span {
     font-size: 30px;
     letter-spacing: 0px;
 }
-.red-font{
-    color: red; font-size: smaller; letter-spacing: 8px;
+
+.red-font {
+    color: red;
+    font-size: smaller;
+    letter-spacing: 8px;
 }
-.container td{
-background-color: white;
-color: black;
-text-align: center;
+
+.container td {
+    background-color: white;
+    color: black;
+    text-align: center;
 
 }
-.container tr{
+
+.container tr {
 
     height: 250px;
- 
-    
+
+
 }
-.container table{
+
+.container table {
     width: 100%;
     padding: 10px 100px;
     border-spacing: 35px;
     margin: 30px 3030;
-  
 }
-.opening{
+.opening {
     font-weight: bold;
 }
-section .inline img{
+section .inline img {
     width: 278.5px;
-    border-spacing:10px ;
-    
+    border-spacing: 10px;
 }
-section h2{
+section h2 {
     color: white;
     text-align: center;
     font-size: 40px;
 }
-section .last-portion img{
-    width: 200px;
-  
-   
+.outer {
+    display: flex;
 }
-section .last-portion tr td{
+.outer .last-pic p img {
+    width: 200px;
+}
+.outer p {
     color: white;
     width: 200px;
-
 }
-section .last-portion th{
-    text-align: left; 
-    
-}
-section .last-portion tr{
-    color: white;
-    
-
-}
-section .last-portion{
-   margin: 150px 150px;
-    font-family: calibri; 
+.outer {
+    margin: 115px 115px;
+    font-family: calibri;
     line-height: 25px;
 }
-
+.outer div{
+    margin: 20px;
+}
+.outer .paragraph{
+   width: 330px;
+}
+.outer div h1{
+    color: white;
+}
